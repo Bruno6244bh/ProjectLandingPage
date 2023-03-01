@@ -1,10 +1,14 @@
+* {
+    /* border: solid 2px red; */
+}
+
 html, body {
     max-width: 100%;
 }
 
 body {
     margin: 0px;
-    font-family: Verdana, Arial, Tahoma, Serif;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
     padding: 0;
 }
 
@@ -74,8 +78,8 @@ body {
     background-color: #3882f6;
     border-radius: 5px;
     border-color: #3882f6;
-    width: 75px;
-    height: 20px;
+    width: 105px;
+    height: 30px;
     margin-top: 5px;
     color: white;
 }
@@ -106,3 +110,76 @@ body {
 .HorizontalList p {
    text-align: center;
 }
+
+.quote-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote-alignment {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.quote {
+    display: block;
+    width: 750px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0%;
+}
+
+.author {
+
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.signup-section {
+
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signup {
+    color: white;
+    display: flex;
+    width: 900px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup button {
+    background-color: #3882f6;
+    border: solid 3px white;
+    border-radius: 10%;
+    color: white;
+    padding: 5px 25px 5px 25px;
+    font-weight: 600;
+}
+
+.signup h3 {
+
+margin: 0px;
+
+}
+
+.signup h4 {
+
+    margin: 0px;
+    font-weight: 100;
+    
+    }
+    
